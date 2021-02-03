@@ -100,6 +100,13 @@ a {
   font-weight: 700;
 }
 
+.featured-article__continue-reading:hover,
+.recent-article__continue-reading:hover,
+.featured-article__description a:hover {
+  text-decoration: underline;
+  color: #1759d2;
+}
+
 .recent-article {
   display: -webkit-box;
   display: -ms-flexbox;

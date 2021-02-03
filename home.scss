@@ -61,11 +61,17 @@ a {
     letter-spacing: 0.15rem;
     text-transform: uppercase;
   }
+
   span {
     font-weight: 700;
   }
 }
-
+.featured-article__continue-reading:hover,
+.recent-article__continue-reading:hover,
+.featured-article__description a:hover {
+  text-decoration: underline;
+  color: #1759d2;
+}
 .recent-article {
   display: flex;
   flex-direction: row-reverse;
